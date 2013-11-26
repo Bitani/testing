@@ -1,5 +1,5 @@
-def sayHello():
-	print "Hello there!"
+def sayHello(message):
+	print message
 
 if __name__ == "__main__":
-	sayHello();
+	sayHello("Hello. How are you?");
